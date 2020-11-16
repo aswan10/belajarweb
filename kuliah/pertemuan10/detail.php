@@ -24,11 +24,11 @@ $m = query("SELECT * FROM mahasiswa WHERE id = $id");
     <li><img height="100" width="100" src="img/<?= $m['gambar']; ?>"></li>
     <li>STB : <?= $m['stb']; ?> </li>
     <li>Nama : <?= $m['nama']; ?></li>
-    <li>Email : <?= $m['email']; ?></li>
+    <li>Email : <?= $m['email']; ?></li>  
     <li>Jurusan : <?= $m['jurusan']; ?></li>
     <li><a href="">ubah</a> | <a href="">hapus</a> </li>
     <li><a href="latihan3.php">Kembali ke daftar Mahasiswa</a></li>
   </ul>
 </body>
 
-</html>
+</html> 
